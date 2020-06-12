@@ -11,6 +11,7 @@ import scrapy
 class ResidentOrFellowItem(scrapy.Item):
     source_url = scrapy.Field()
     name = scrapy.Field()
+    image_url = scrapy.Field()
     specialty = scrapy.Field()
     program_type = scrapy.Field()
     grad_year = scrapy.Field()

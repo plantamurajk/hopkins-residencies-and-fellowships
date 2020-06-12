@@ -30,7 +30,7 @@ class PediatricsResidentSpider(scrapy.Spider):
                 if not cols:
                     continue
                 name = cols[0]
-                medical_school = cols[1]
+                # medical_school = cols[1]
                 items['name'] = name
                 items['program_type'] = 'Residency'
                 items['specialty'] = 'Pediatrics'
