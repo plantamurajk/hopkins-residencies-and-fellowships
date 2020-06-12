@@ -1,0 +1,5 @@
+*.json
+*.jl
+*.html
+
+.scrapy/httpcache

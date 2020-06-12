@@ -8,9 +8,12 @@
 import scrapy
 
 
-class HopkinsResidentOrFellow(scrapy.Item):
+class ResidentOrFellowItem(scrapy.Item):
+    source_url = scrapy.Field()
     name = scrapy.Field()
-    grad_year = scrapy.Field()
     specialty = scrapy.Field()
     program_type = scrapy.Field()
-    pass
+    grad_year = scrapy.Field()
+    current_year = scrapy.Field()
+    program = scrapy.Field()
+    
