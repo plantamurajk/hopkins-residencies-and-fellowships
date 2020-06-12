@@ -1,0 +1,24 @@
+# Flagship - Last Updated 02.22.2019
+
+User-agent: *
+Disallow: /_2015-archive/
+Disallow: /_2016-archive/
+Disallow: /_2017-archive/
+Disallow: /_2018-archive/
+Disallow: /_2019-archive/
+Disallow: /_includes/
+Disallow: /_media/
+Disallow: /_redesign/
+Disallow: /_templates-legacy/
+Disallow: /_templates/
+Disallow: /se/
+Disallow: /se_support/
+
+# disallow indexing faculty profilePrint routes
+# see https://webhelp.jhsph.edu/a/tickets/8190
+/profileprint/
+
+# blocks all content within any directory with one of these names anywhere, regardless of directory depth.
+Disallow: /*_beta
+Disallow: /*_archive
+Disallow: /*_includes

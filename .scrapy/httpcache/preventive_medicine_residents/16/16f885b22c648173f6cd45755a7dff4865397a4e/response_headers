@@ -1,0 +1,7 @@
+Server: nginx/1.17.9
+Date: Fri, 12 Jun 2020 18:04:43 GMT
+Content-Type: text/plain;charset=UTF-8
+Set-Cookie: CFID=7034731; Expires=Sun, 05-Jun-2050 18:04:43 GMT; Path=/; HttpOnly
+Set-Cookie: CFTOKEN=d911b35de9d15cf6-A10A71F1-A35A-0CBE-94D840E4BA18AD70; Expires=Sun, 05-Jun-2050 18:04:43 GMT; Path=/; HttpOnly
+X-Device-Class: DEFAULT
+X-Powered-By: ASP.NET
