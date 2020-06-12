@@ -26,6 +26,8 @@ class DiagnosticRadiologyResidents(scrapy.Spider):
         for res in residents:
             items['current_year'] = res.xpath("ancestor-or-self::div/preceding-sibling::h2/text()").getall()[-1]
             items['name'] = " ".join(res.xpath("descendant-or-self::h3/text()").get().split())
+            #
+            ## CHECK THIS BELOW
             items['image_url'] = res.xpath("descendant-or-self::img/@src").get()
         # items['name'] = response.xpath("//div[@class='image-list-image']/img/@src").getall()
             items['program_type'] = 'Residency'

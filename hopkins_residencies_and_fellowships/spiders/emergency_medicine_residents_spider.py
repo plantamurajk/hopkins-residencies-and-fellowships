@@ -29,7 +29,7 @@ class EmergencyMedicineResidents(scrapy.Spider):
 
         for res in residents:
             items['current_year'] = response.xpath('//h1[@class="mainBodyContentTitle"]//text()').get()
-            items['grad_year'] = 2020 + (4 - int(response.url[-6]))
+            items['grad_year'] = (datetime.today().year + 4) - int(response.url[-6])
             items['name'] = res.xpath("h2/text()").get()
             items['image_url'] = response.urljoin(res.xpath('div/img/@src').get())
             items['program_type'] = 'Residency'

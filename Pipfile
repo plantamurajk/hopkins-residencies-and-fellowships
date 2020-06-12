@@ -8,9 +8,10 @@ verify_ssl = true
 [packages]
 scrapy = "*"
 ndjson = "*"
-pandas = "*"
+
 lxml = "*"
 pdb = "*"
+datetime = "*"
 
 [requires]
 python_version = "3.8"
