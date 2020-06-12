@@ -13,7 +13,8 @@ from datetime import datetime, date
 from ..items import ResidentOrFellowItem
 
 URLS = ["https://www.jhsph.edu/academics/residency-programs/general-preventive-medicine-residency/who-we-are/current-residents.html"]
-class DiagnosticRadiologyResidents(scrapy.Spider):
+
+class PreventiveRadiologyResidents(scrapy.Spider):
     name = 'preventive_medicine_residents'
     start_urls  = URLS
 
