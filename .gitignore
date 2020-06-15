@@ -2,4 +2,4 @@
 *.jl
 *.html
 *.scrapy
-scrapy/httpcache
+scrapy
