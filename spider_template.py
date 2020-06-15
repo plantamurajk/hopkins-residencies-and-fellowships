@@ -30,3 +30,9 @@
 #             items['program_type'] = ''
 #             items['specialty'] = ''
 #             yield items
+
+
+# def getNext(response, element){
+#     selector = 
+#     return response.xpath()
+# }
