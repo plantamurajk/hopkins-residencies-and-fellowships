@@ -1,5 +1,5 @@
 *.json
 *.jl
 *.html
-
-./.scrapy/httpcache
+*.scrapy
+scrapy/httpcache
